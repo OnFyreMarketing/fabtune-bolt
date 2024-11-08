@@ -1,0 +1,21 @@
+{
+      "name": "fabtune",
+      "version": "1.0.0",
+      "description": "FabTune Web App for AI-powered song generation",
+      "main": "index.js",
+      "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "start": "node server/index.js"
+      },
+      "dependencies": {
+        "express": "^4.17.1",
+        "jsonwebtoken": "^8.5.1",
+        "stripe": "^8.174.0",
+        "paypal-rest-sdk": "^1.8.1",
+        "mongoose": "^5.13.8"
+      },
+      "devDependencies": {
+        "vite": "^4.2.0"
+      }
+    }
